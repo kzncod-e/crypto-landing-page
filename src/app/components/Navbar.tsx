@@ -29,7 +29,7 @@ const Navbar = () => {
   }, [isOpen]);
 
   return (
-    <div className="fixed  w-full px-5 xl:px-3 bg-[#04070d] py-6 text-white">
+    <div className="fixed  w-full px-5 xl:px-7 bg-[#04070d] py-6 text-white">
       <nav className="container z-40 flex items-center mx-auto justify-between">
         <div className="flex z-50 items-center space-x-4">
           <div className="h-14">
