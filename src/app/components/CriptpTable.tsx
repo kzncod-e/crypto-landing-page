@@ -152,12 +152,12 @@ export default function CryptoTable() {
                 key={crypto.id}
                 className="border-b-[1px]  border-[#121B2E] text-white">
                 <TableCell className="font-medium">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center  gap-4">
                     <button onClick={() => toggleFavorite(crypto.id)}>
                       {crypto.favorite ? (
-                        <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
+                        <img src="./star.png" className="h-8 w-8 " />
                       ) : (
-                        <Star className="h-4 w-4 text-gray-500" />
+                        <img src="./white-star.png" className="h-8 w-8 " />
                       )}
                     </button>
                     <span>{crypto.pair}</span>
@@ -204,12 +204,12 @@ export default function CryptoTable() {
             key={crypto.id}
             className=" p-3 rounded-lg  border-b-[1px]  border-[#121B2E]">
             <div className="flex justify-between items-center mb-2">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-4">
                 <button onClick={() => toggleFavorite(crypto.id)}>
                   {crypto.favorite ? (
-                    <Star className="h-4 w-4 text-yellow-500 fill-yellow-500" />
+                    <img src="./star.png" className="h-8 w-8 " />
                   ) : (
-                    <Star className="h-4 w-4 text-gray-500" />
+                    <img src="./white-star.png" className="h-8 w-8 t" />
                   )}
                 </button>
                 <span className="font-medium">{crypto.pair}</span>
